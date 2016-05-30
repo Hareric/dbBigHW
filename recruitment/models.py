@@ -56,8 +56,8 @@ class JobDeliver(models.Model):
 
 class CompanyJob(models.Model):
     ID = models.CharField(max_length=11, primary_key=True)
-    company = models.ForeignKey(Company)
-    job_deliver = models.ForeignKey(JobDeliver)
+    company_id = models.ForeignKey(Company)
+    job_deliver_id = models.ForeignKey(JobDeliver)
 
     def __unicode__(self):
         return self.ID
@@ -69,6 +69,7 @@ class CV(models.Model):
     name = models.CharField(max_length=20)
     sex = models.CharField(max_length=10)
     birth = models.CharField(max_length=20)
+    create_time = models.CharField(max_length=20)
     address = models.CharField(max_length=50)
     education = models.CharField(max_length=20)
     work_exp = models.CharField(max_length=100)
@@ -97,8 +98,8 @@ class User(models.Model):
 
 class UserCV(models.Model):
     ID = models.CharField(max_length=11, primary_key=True)
-    user = models.ForeignKey(User)
-    cv = models.ForeignKey(CV)
+    user_id = models.ForeignKey(User)
+    cv_id = models.ForeignKey(CV)
 
     def __unicode__(self):
         return self.ID
