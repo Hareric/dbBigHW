@@ -28,11 +28,11 @@ class ManageAdmin(admin.ModelAdmin):
 
 
 class CompanyJObAdmin(admin.ModelAdmin):
-    list_display = ('ID',)
+    list_display = ('ID', 'company_id', 'job_deliver_id')
 
 
 class UserCVAdmin(admin.ModelAdmin):
-    list_display = ('ID',)
+    list_display = ('ID', 'user_id', 'cv_id')
 
 
 class JobWantedAdmin(admin.ModelAdmin):

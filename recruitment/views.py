@@ -18,9 +18,9 @@ def home(request):
             print pwd
             try:
                 print "查询数据库中是否存在该用户..."
-                try:  # 查询应聘者是否存在
+                try:  # 查询应聘者是否存在该用户
                     login_data = User.objects.get(ID=ID_number)
-                except:  # 查询企业是否存在
+                except:  # 查询企业是否存在该用户
                     login_data = Company.objects.get(ID=ID_number)
                 print "用户查询成功,数据库中存在该用户"
                 manage_data = Manage.objects.get(ID=login_data.mid)
