@@ -26,18 +26,24 @@ table td{
 
 .aaa{
     position: relative;
+    color: #369;
+    text-decoration: none;
+
 }
 .bbb{
     position: absolute;
     width: 500px;
     height: 500px;
-    background-color: #000;
+    background-color: #eee;
     display: none;
-    left: 50px;
+    left: -500px;
     z-index: 9999999;
+    text-align: left;
 }
 .aaa:hover .bbb{
+    white-space: normal;
     display: block;
+
 }
 
 .demo-avatar {
