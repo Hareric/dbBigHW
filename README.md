@@ -12,41 +12,58 @@
 #### 2.1登陆界面
  ![登陆界面][4]
 输入账号和密码，查询数据库并于密码匹配成功后可登陆
+
 ![登录失败1][5] ![登录失败2][6]
 若查询失败则无法登陆
 #### 2.2普通用户登录
  ![普通用户登录][7]
 获得用户详细信息，和对应的简历列表
+
 ![简历的详细信息][8]
 每份简历的详细信息
 #### 2.3企业用户登录
  ![企业用户详细信息][9]
 获得企业用户详细信息，和对应的发布的招聘信息列表
+
 ![详细招聘信息][10]
 每条招聘的详细招聘信息
+
 ![对应该招聘投放的简历][11]
 以及对应该招聘投放的简历
 
 #### 2.4数据库后台管理
 ![此处输入图片的描述][12]
+
 用来管理数据库的后台，实现增删查改。
 ### 3 系统使用说明
 系统运行需求：
+
 系统环境：ubuntu14.04/OS X
+
 程序语言：python 2.7.+
+
 框架: django 1.8.0+
 
 系统下载:
 使用github下载：
+
 git clone https://github.com/Hareric/dbBigHW.git
+
 直接下载：
+
 https://github.com/Hareric/dbBigHW/archive/master.zip
 
+
 系统运行：
+
 进入该系统根目录，终端下执行python manage.py runserver开启本地服务器
+
 浏览器访问: 127.0.0.1:8000/home 进入查询页面
+
 浏览器访问: 127.0.0.1:8000/admin 进入数据库后台管理页面
+
 管理员帐号: admin 密码: admin
+
 
   [4]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image007.png
   [5]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image009.png
