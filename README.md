@@ -61,7 +61,6 @@ https://github.com/Hareric/dbBigHW/archive/master.zip
 浏览器访问: 127.0.0.1:8000/home 进入查询页面
 
 浏览器访问: 127.0.0.1:8000/admin 进入数据库后台管理页面
-
 管理员帐号: admin 密码: admin
 
 
