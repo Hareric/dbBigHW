@@ -47,3 +47,13 @@ https://github.com/Hareric/dbBigHW/archive/master.zip
 浏览器访问: 127.0.0.1:8000/home 进入查询页面
 浏览器访问: 127.0.0.1:8000/admin 进入数据库后台管理页面
 管理员帐号: admin 密码: admin
+
+  [4]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image007.png
+  [5]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image009.png
+  [6]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image011.png
+  [7]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image013.png
+  [8]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image015.png
+  [9]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image017.png
+  [10]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image019.png
+  [11]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image021.png
+  [12]: https://github.com/Hareric/dbBigHW/raw/master/recruitment/static/images/file/image023.png
